@@ -1,0 +1,95 @@
+.home {
+    width: 100%;
+    min-height: 70vh;
+}
+
+.home-heading {
+    margin-top: 100px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.home-img {
+    width: 250px;
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
+}
+
+.anime-box {
+    margin: auto;
+    margin-top: 30px;
+    width: 150px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.normal-text {
+    font-size: 13px;
+    animation: slide 2s linear infinite;
+    position: absolute;
+}
+
+.tilted-text {
+    display: flex;
+    animation: animate 2s linear infinite;
+}
+
+.tilt {
+    transform: rotate(5deg);
+    animation: tilt 2s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes animate {
+    0% {
+        gap: 40px;
+    }
+
+    100% {
+        gap: 0px;
+    }
+}
+
+@keyframes tilt {
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate((80deg));
+    }
+}

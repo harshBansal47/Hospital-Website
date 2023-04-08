@@ -1,0 +1,8 @@
+.cv {
+    width: 80%;
+}
+
+.cv a {
+    text-decoration: underline;
+    padding-bottom: 1px;
+}

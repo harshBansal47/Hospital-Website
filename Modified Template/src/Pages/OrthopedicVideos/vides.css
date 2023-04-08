@@ -1,0 +1,12 @@
+.vides_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.vide {
+    width: 260px;
+    height: auto;
+}
